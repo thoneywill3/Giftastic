@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\Tom\Desktop\UT\Hangman Game\style.css">
+</head>
+<body>
+    <div class = "container">
+        <header>
+            <h1>Hangman game</h1>
+        </header>
+        <div class = "underscore">underscore</div>
+        <div class = "rightGuess">rightGuess</div>
+        <div class = "wrongGuess">wrongGuess</div>
+
+        <input type ="text" id="myTextExample" value="Test">
+
+
+        <button onclick="myFunction()"> button </button>
+
+
+        <p id = "demo1"></p>
+
+
+    </div>
+
+<script>
+        function myFunction()
+        {
+            var x = document.getElementById("myTextExample").value;
+            document.getElementById("demo1").innerHTML = x;
+
+        }
+</script>
+
+
+        <script type ="text/javascript" src="C:\Users\Tom\Desktop\UT\Hangman Game\hangman.js">
+        
+        </script>
+    
+</body>

@@ -1,0 +1,1 @@
+ var randomNumber = getRandomNumber(100);
